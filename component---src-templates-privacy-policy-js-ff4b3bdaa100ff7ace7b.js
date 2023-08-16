@@ -1,0 +1,2 @@
+(self.webpackChunkprotoproto=self.webpackChunkprotoproto||[]).push([[644],{9427:function(e,t,r){"use strict";r.r(t);var n=r(7294);t.default=function(){return n.createElement("div",null,n.createElement("h1",null,"Privacy Policy"))}}}]);
+//# sourceMappingURL=component---src-templates-privacy-policy-js-ff4b3bdaa100ff7ace7b.js.map
