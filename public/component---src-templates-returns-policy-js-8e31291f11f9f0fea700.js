@@ -1,0 +1,2 @@
+(self.webpackChunkprotoproto=self.webpackChunkprotoproto||[]).push([[326],{8887:function(e,t,n){"use strict";n.r(t);var r=n(7294);t.default=function(){return r.createElement("div",null,r.createElement("h1",null,"Returns Policy"))}}}]);
+//# sourceMappingURL=component---src-templates-returns-policy-js-8e31291f11f9f0fea700.js.map

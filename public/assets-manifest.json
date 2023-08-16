@@ -1,0 +1,12 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/logo_animation_A-B-A_Gif_01.mp4": "static/logo_animation_A-B-A_Gif_01-962c8d433289177452298fb83ba9b7cb.mp4",
+  "static/logo_animation_B-C-B_GIF_01.mp4": "static/logo_animation_B-C-B_GIF_01-c28b6aed81cf17e5dc29a39f032da955.mp4",
+  "static/logo_animation_C-D-C_GIF_01.mp4": "static/logo_animation_C-D-C_GIF_01-cc1934c932ab41fa729bed8010d2b585.mp4",
+  "static/logo_animation_D-E-D_GIF_01.mp4": "static/logo_animation_D-E-D_GIF_01-c0e076ae7d51419ee63f24a84b0e101b.mp4",
+  "static/logo_animation_E-F-E_GIF_01.mp4": "static/logo_animation_E-F-E_GIF_01-fcbb2e255a5f6127a1a28a45b4184785.mp4",
+  "static/logo_animation_F-G-F_GIF_01.mp4": "static/logo_animation_F-G-F_GIF_01-6ea29e1bfba1c96f96ecb24bbaf9e2a4.mp4",
+  "static/logo_animation_G-H-G_GIF_01.mp4": "static/logo_animation_G-H-G_GIF_01-6a292585679f27c2cde6b82e8ee51b0c.mp4",
+  "static/logo_animation_H-I-H_GIF_01.mp4": "static/logo_animation_H-I-H_GIF_01-d96fbd246929f2bf40b01521c96efe9e.mp4"
+}
