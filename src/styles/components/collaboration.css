@@ -1,0 +1,21 @@
+.collaboration:hover .collaboration__content {
+  @screen md {
+    @apply opacity-75;
+  }
+}
+
+.collaboration__content {
+  @apply text-center;
+  @screen md {
+    @apply leading-relaxed p-8 opacity-0 bg-black inset-0 absolute transition-opacity duration-300 ease-in-out text-white flex justify-center items-center flex-col;
+  }
+  @screen lg {
+    @apply p-16;
+  }
+  @screen xl {
+    @apply p-32;
+  }
+  @screen 2xl {
+    @apply p-40;
+  }
+}

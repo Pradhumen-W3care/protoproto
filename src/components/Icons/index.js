@@ -1,0 +1,6 @@
+export { default as RightArrow } from "./RightArrow"
+export { default as NarrowRightArrow } from "./NarrowRightArrow"
+export { default as NarrowLeftArrow } from "./NarrowLeftArrow"
+export { default as ShoppingBag } from "./ShoppingBag"
+export { default as Menu } from "./Menu"
+export { default as X } from "./X"

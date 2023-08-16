@@ -1,0 +1,107 @@
+/* Category.module.css */
+.slick-slider.category-banner {
+  height: 100vh;
+}
+.slick-slider.category-banner div {
+  height: 100%;
+}
+.category-banner .slick-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.category-banner .slick-dots li {
+  width: 10px;
+  height: 10px;
+}
+.category-banner .slick-dots li button {
+  width: 10px;
+  height: 10px;
+}
+.category-banner .slick-dots li button:before{
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: transparent;
+  content: '';
+}
+.category-banner .slick-dots li.slick-active button:before{
+opacity: 1;      background: #fff;
+}
+
+.category-banner .slick-prev, .category-banner .slick-next {
+  width: 40px;
+  height: 60px; 
+  z-index: 9;
+} 
+.category-banner .slick-prev {
+  background: url(/icons/pre.svg) no-repeat center center;
+  background-size: cover;
+  left: 25px;
+}
+.category-banner .slick-next {
+  background: url(/icons/next.svg) no-repeat center center;
+  background-size: cover;
+  right: 25px;
+}
+.category-banner .slick-next:hover, .category-banner .slick-next:focus { background: url(/icons/next.svg) no-repeat center center; background-size: cover; }
+
+.category-banner .slick-prev:hover, .category-banner .slick-prev:focus  {background: url(/icons/pre.svg) no-repeat center center; background-size: cover;}
+
+.category-banner .slick-prev:before, .category-banner .slick-next::before {
+  display: none;
+} 
+
+
+
+@media(max-width:1100px) {
+}
+
+
+@media(max-width:575px) {
+.category-banner .slick-prev, .category-banner .slick-next {
+  width: 30px;
+  height: 40px; 
+} 
+
+.category-banner .slick-prev {
+  left: 15px;
+}
+.category-banner .slick-next {
+  right: 15px;
+}
+
+.category-banner {
+  margin-bottom: 60px;
+}
+.category-inner .main-content {
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+}
+
+
+.stock-level {
+  @apply text-xs bg-black text-white align-middle font-bold inline-block;
+  padding: 1px 4px 0;
+}
+
+.product-item-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-item-post .main-paragraph {
+  width: 33.33%;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,4 @@
+.btn-pri {
+  @apply bg-black text-white uppercase text-base;
+  padding: 0.75rem 3.375rem;
+}

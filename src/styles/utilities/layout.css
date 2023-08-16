@@ -1,0 +1,20 @@
+.h-content {
+  height: calc(100vh - 64px);
+}
+
+.min-h-desk {
+  min-height: calc(100vh - 256px);
+}
+
+.img-center {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .iphone-fix {
+    -webkit-transform: translateY(-10%);
+  }
+}

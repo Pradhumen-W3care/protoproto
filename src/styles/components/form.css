@@ -1,0 +1,25 @@
+.arrow-inline span {
+  position: relative;
+  width: 20px;
+  margin-right: 20px;
+}
+.arrow-inline span:before {
+  content: '';
+  width: 20px;
+  height: 2px;
+  background: black;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.arrow-inline span:after {
+  position: absolute;
+  top: 4px;
+  left: 13px;
+  content: '';
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(-45deg);
+}

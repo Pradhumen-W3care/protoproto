@@ -1,0 +1,4 @@
+.stock-level {
+  @apply text-xs bg-black text-white align-middle font-bold inline-block;
+  padding: 1px 4px 0;
+}

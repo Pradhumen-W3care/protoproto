@@ -1,2 +1,0 @@
-(self.webpackChunkprotoproto=self.webpackChunkprotoproto||[]).push([[680],{9219:function(e,t,r){"use strict";r.r(t);var n=r(7294);t.default=function(){return n.createElement("div",null,n.createElement("h1",null,"Terms of Service"))}}}]);
-//# sourceMappingURL=component---src-templates-terms-of-service-js-da4db3a069793eaa049a.js.map

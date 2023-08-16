@@ -1,0 +1,17 @@
+.accordion {
+  @apply outline-none;
+}
+
+.accordion__heading {
+  @apply uppercase border-solid border-b border-black pb-2 mb-4;
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  content: "–";
+}
+
+.accordion__button::before {
+  content: "+";
+  @apply inline-block w-4;
+}

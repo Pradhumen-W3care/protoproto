@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Graebenbach";
+  src: url(./fonts/Graebenbach-Regular.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Graebenbach";
+  src: url(./fonts/Graebenbach-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto1";
+  src: url(./fonts/Proto1-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto2";
+  src: url(./fonts/Proto2-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto3";
+  src: url(./fonts/Proto3-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto4";
+  src: url(./fonts/Proto4-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto5";
+  src: url(./fonts/Proto5-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto6";
+  src: url(./fonts/Proto6-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto7";
+  src: url(./fonts/Proto7-Regular.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proto8";
+  src: url(./fonts/Proto8-Regular.otf);
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.--iframe-secure {
+  display: block !important; position: fixed !important; z-index: 2147483647 !important; background: rgba(40, 40, 40, 0.75) !important; transition: background 400ms ease 0s !important; will-change: background !important; inset: 0px !important;
+}
+
+.--iframe-secure iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

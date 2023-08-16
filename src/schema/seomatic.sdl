@@ -1,0 +1,58 @@
+type Query {
+  # This query is used to query for SEOmatic meta data.
+  seomatic(
+    # The URI to resolve the SEOmatic metdata for.
+    uri: String
+
+    # Optional - The site ID to resolve the SEOmatic metdata for.
+    siteId: Int
+
+    # Optional - The site handle to resolve the SEOmatic metdata for.
+    site: String
+
+    # Whether the meta items should be returned as an array or as pre-rendered tag text.
+    asArray: Boolean
+  ): SeomaticInterface
+}
+
+# This entity has all the SEOmatic fields
+type SeomaticType implements SeomaticInterface {
+  # The MetaTitleContainer SEOmatic container.
+  metaTitleContainer: String
+
+  # The MetaTagContainer SEOmatic container.
+  metaTagContainer: String
+
+  # The MetaLinkContainer SEOmatic container.
+  metaLinkContainer: String
+
+  # The MetaScriptContainer SEOmatic container.
+  metaScriptContainer: String
+
+  # The MetaJsonLdContainer SEOmatic container.
+  metaJsonLdContainer: String
+
+  # The MetaSiteVarsContainer SEOmatic container.
+  metaSiteVarsContainer: String
+}
+
+# This is the interface implemented by SEOmatic.
+interface SeomaticInterface {
+  # The MetaTitleContainer SEOmatic container.
+  metaTitleContainer: String
+
+  # The MetaTagContainer SEOmatic container.
+  metaTagContainer: String
+
+  # The MetaLinkContainer SEOmatic container.
+  metaLinkContainer: String
+
+  # The MetaScriptContainer SEOmatic container.
+  metaScriptContainer: String
+
+  # The MetaJsonLdContainer SEOmatic container.
+  metaJsonLdContainer: String
+
+  # The MetaSiteVarsContainer SEOmatic container.
+  metaSiteVarsContainer: String
+}

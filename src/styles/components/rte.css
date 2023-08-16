@@ -1,0 +1,17 @@
+.rte {
+  p,
+  ul,
+  ol {
+    margin-bottom: theme("margin.4");
+  }
+}
+
+.section-rte p:not(:last-child) {
+  margin-bottom: theme("margin.6");
+  @screen lg {
+    margin-bottom: theme("margin.9");
+  }
+  /* @screen xl {
+    margin-bottom: theme("margin.10-5");
+  } */
+}

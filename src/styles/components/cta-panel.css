@@ -1,0 +1,6 @@
+.cta-panel:hover .cta-panel__image {
+  @apply transform scale-105;
+}
+.cta-panel__image {
+  @apply transition-transform duration-300 ease-in-out;
+}
